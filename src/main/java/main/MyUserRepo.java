@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyUserRepo implements CRUDRepo<User> {
+public class MyUserRepo implements UserRepo {
 
 	@Override
 	public void create(List<User> toInsert) {
